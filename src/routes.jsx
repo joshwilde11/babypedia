@@ -1,4 +1,4 @@
-import App from './App.jsx'
+import App from './components/App.jsx'
 
 const routes = [
     {
@@ -10,3 +10,6 @@ const routes = [
       element: <h1>Another path</h1>
     }
   ]
+
+
+  export default routes
