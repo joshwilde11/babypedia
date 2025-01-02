@@ -10,19 +10,19 @@ import SubmitName from './components/SubmitName'
 const routes = createBrowserRouter([
   {
     path: '/',
-    element: <Layout><App /></Layout>,
+    element: <Layout title="All Names"><App /></Layout>,
   },
   {
     path: '/nature-names',
-    element: <Layout><NatureNames /></Layout>,
+    element: <Layout title="Nature Names"><NatureNames /></Layout>,
   },
   {
     path: '/religious-names',
-    element: <Layout><ReligiousNames /></Layout>,
+    element: <Layout title="Religious Names"><ReligiousNames /></Layout>,
   },
   {
     path: '/nicknames',
-    element: <Layout><Nicknames /></Layout>,
+    element: <Layout title="Nicknames"><Nicknames /></Layout>,
   },
   {
     path: '/submit-name',

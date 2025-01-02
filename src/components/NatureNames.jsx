@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import NameCard from './NameCard'
 import '../App.css'
 
-const NatureNames = () => {
+const NatureNames = ({ genderFilter }) => {
   const [names, setNames] = useState([])
 
   useEffect(() => {
@@ -11,9 +11,14 @@ const NatureNames = () => {
       .then((data) => setNames(data.filter(name => name.category === 'nature')))
   }, [])
 
+  const filteredNames = names.filter((name) => {
+    if (genderFilter === 'all') return true
+    return name.gender === genderFilter
+  })
+
   return (
     <div className="name-cards-container">
-      {names.map((name) => (
+      {filteredNames.map((name) => (
         <NameCard key={name.id} {...name} />
       ))}
     </div>

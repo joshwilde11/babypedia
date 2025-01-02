@@ -1,178 +1,190 @@
 {
   "names": [
     {
-        "id": 1,
-        "name": "Aloe",
-        "category": "nature",
-        "gender": "male"
-      },
-      {
-        "id": 2,
-        "name": "River",
-        "category": "nature",
-        "gender": "male"
-      },
-      {
-        "id": 3,
-        "name": "Forrest",
-        "category": "nature",
-        "gender": "male"
-      },
-      {
-        "id": 4,
-        "name": "Sahib",
-        "category": "religious",
-        "gender": "male"
-      },
-      {
-        "id": 5,
-        "name": "Bartholomew",
-        "category": "religious",
-        "gender": "male"
-      },
-      {
-        "id": 6,
-        "name": "Bashir",
-        "category": "religious",
-        "gender": "male"
-      },
-      {
-        "id": 7,
-        "name": "Ezekiel",
-        "category": "religious",
-        "gender": "male"
-      },
-      {
-        "id": 8,
-        "name": "Robert",
-        "category": "nicknames",
-        "gender": "male"
-      },
-        {
-        "id": 9,
-        "name": "James",
-        "category": "nicknames",
-        "gender": "male"
-        },
-        {
-        "id": 10,
-        "name": "William",
-        "category": "nicknames",
-        "gender": "male"
-        },
-        {
-        "id": 11,
-        "name": "Lillian",
-        "category": "nature",
-        "gender": "female"
-        },
-        {
-        "id": 12,
-        "name": "Daisy",
-        "category": "nature",
-        "gender": "female"
-        },
-        {
-        "id": 13,
-        "name": "Rose",
-        "category": "nature",
-        "gender": "female"
-        },
-        {
-        "id": 14,
-        "name": "Mary",
-        "category": "religious",
-        "gender": "female"
-        },
-        {
-        "id": 15,
-        "name": "Esther",
-        "category": "religious",
-        "gender": "female"
-        },
-        {
-        "id": 16,
-        "name": "Aliyah",
-        "category": "religious",
-        "gender": "female"
-        },
-        {
-        "id": 17,
-        "name": "Dalia",
-        "category": "religious",
-        "gender": "female"
-        },
-        {
-        "id": 18,
-        "name": "Patricia",
-        "category": "nicknames",
-        "gender": "female"
-        },
-        {
-        "id": 19,
-        "name": "Katherine",
-        "category": "nicknames",
-        "gender": "female"
-        },
-        {
-        "id": 20,
-        "name": "Alexandra",
-        "category": "nicknames",
-        "gender": "female"
-        },
-        {
-        "id": 21,
-        "name": "Robin",
-        "category": "nature",
-        "gender": "neutral"
-        },
-        {
-        "id": 22,
-        "name": "Sage",
-        "category": "nature",
-        "gender": "neutral"
-        },
-        {
-        "id": 23,
-        "name": "Brooke",
-        "category": "nature",
-        "gender": "neutral"
-        },
-        {
-        "id": 24,
-        "name": "Carmen",
-        "category": "religious",
-        "gender": "neutral"
-        },
-        {
-        "id": 25,
-        "name": "Rani",
-        "category": "religious",
-        "gender": "neutral"
-        },
-        {
-        "id": 26,
-        "name": "Ariel",
-        "category": "religious",
-        "gender": "neutral"
-        },
-        {
-        "id": 27,
-        "name": "Levi",
-        "category": "religious",
-        "gender": "neutral"
-        },
-        {
-        "id": 28,
-        "name": "Chris",
-        "category": "nicknames",
-        "gender": "neutral"
-        },
-        {
-        "id": 29,
-        "name": "Bobby",
-        "category": "nicknames",
-        "gender": "neutral"
-        }
-      
-   ] }
+      "id": 1,
+      "name": "Aloe",
+      "category": "nature",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "River",
+      "category": "nature",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "name": "Forrest",
+      "category": "nature",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "name": "Sahib",
+      "category": "religious",
+      "gender": "male"
+    },
+    {
+      "id": 5,
+      "name": "Bartholomew",
+      "category": "religious",
+      "gender": "male"
+    },
+    {
+      "id": 6,
+      "name": "Bashir",
+      "category": "religious",
+      "gender": "male"
+    },
+    {
+      "id": 7,
+      "name": "Ezekiel",
+      "category": "religious",
+      "gender": "male"
+    },
+    {
+      "id": 8,
+      "name": "Robert",
+      "category": "nicknames",
+      "gender": "male"
+    },
+    {
+      "id": 9,
+      "name": "James",
+      "category": "nicknames",
+      "gender": "male"
+    },
+    {
+      "id": 10,
+      "name": "William",
+      "category": "nicknames",
+      "gender": "male"
+    },
+    {
+      "id": 11,
+      "name": "Lillian",
+      "category": "nature",
+      "gender": "female"
+    },
+    {
+      "id": 12,
+      "name": "Daisy",
+      "category": "nature",
+      "gender": "female"
+    },
+    {
+      "id": 13,
+      "name": "Rose",
+      "category": "nature",
+      "gender": "female"
+    },
+    {
+      "id": 14,
+      "name": "Mary",
+      "category": "religious",
+      "gender": "female"
+    },
+    {
+      "id": 15,
+      "name": "Esther",
+      "category": "religious",
+      "gender": "female"
+    },
+    {
+      "id": 16,
+      "name": "Aliyah",
+      "category": "religious",
+      "gender": "female"
+    },
+    {
+      "id": 17,
+      "name": "Dalia",
+      "category": "religious",
+      "gender": "female"
+    },
+    {
+      "id": 18,
+      "name": "Patricia",
+      "category": "nicknames",
+      "gender": "female"
+    },
+    {
+      "id": 19,
+      "name": "Katherine",
+      "category": "nicknames",
+      "gender": "female"
+    },
+    {
+      "id": 20,
+      "name": "Alexandra",
+      "category": "nicknames",
+      "gender": "female"
+    },
+    {
+      "id": 21,
+      "name": "Robin",
+      "category": "nature",
+      "gender": "neutral"
+    },
+    {
+      "id": 22,
+      "name": "Sage",
+      "category": "nature",
+      "gender": "neutral"
+    },
+    {
+      "id": 23,
+      "name": "Brooke",
+      "category": "nature",
+      "gender": "neutral"
+    },
+    {
+      "id": 24,
+      "name": "Carmen",
+      "category": "religious",
+      "gender": "neutral"
+    },
+    {
+      "id": 25,
+      "name": "Rani",
+      "category": "religious",
+      "gender": "neutral"
+    },
+    {
+      "id": 26,
+      "name": "Ariel",
+      "category": "religious",
+      "gender": "neutral"
+    },
+    {
+      "id": 27,
+      "name": "Levi",
+      "category": "religious",
+      "gender": "neutral"
+    },
+    {
+      "id": 28,
+      "name": "Chris",
+      "category": "nicknames",
+      "gender": "neutral"
+    },
+    {
+      "id": 29,
+      "name": "Bobby",
+      "category": "nicknames",
+      "gender": "neutral"
+    },
+    {
+      "id": "d8dc",
+      "name": "Pea",
+      "category": "nature",
+      "gender": "female"
+    },
+    {
+      "id": "966c",
+      "name": "Jalebi",
+      "category": "nature",
+      "gender": "male"
+    }
+  ]
+}

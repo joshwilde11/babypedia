@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import NameCard from './NameCard'
 import '../App.css'
 
-const Nicknames = () => {
+const Nicknames = ({ genderFilter }) => {
   const [names, setNames] = useState([])
 
   useEffect(() => {
@@ -11,10 +11,16 @@ const Nicknames = () => {
       .then((data) => setNames(data.filter(name => name.category === 'nicknames')))
   }, [])
 
+  const filteredNames = names.filter((name) => {
+    if (genderFilter === 'all') return true
+    return name.gender === genderFilter
+  })
+
   return (
     <div>
+      <h4>Names with a lot of nicknames</h4>
       <div className="name-cards-container">
-        {names.map((name) => (
+        {filteredNames.map((name) => (
           <NameCard key={name.id} {...name} />
         ))}
       </div>
